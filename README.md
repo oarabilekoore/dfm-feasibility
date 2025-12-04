@@ -3,10 +3,8 @@ An interactive article based on a feasibility study evaluating the establishment
 
 **Live Interactive Report:** [View the Web Report Here](https://yourusername.github.io/dfm-study)  
 
-<div align="center">
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Domain](https://img.shields.io/badge/Domain-Mechanical_Engineering_%7C_Business_Strategy-orange)
-</div>
 
 ## Overview  
 This repository contains an interactive version of a feasibility study originally completed as part of GEME 201 (Introduction to Small Business Management and Accounting) at the Botswana International University of Science and Technology (BIUST).
