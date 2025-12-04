@@ -1,58 +1,74 @@
-# Feasibility Study: DFM Precision Engineering 🇧🇼
+# DFM Precision Engineering – Interactive Feasibility Study  
+An interactive article based on a feasibility study evaluating the establishment of a local precision engineering company in Botswana.
 
-### Localized Manufacturing Strategy for Botswana's Critical Infrastructure
 **Live Interactive Report:** [View the Web Report Here](https://yourusername.github.io/dfm-study)  
+
+<div align="center">
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
-![Tech Stack](https://img.shields.io/badge/Tech-HTML5_%7C_Chart.js_%7C_Bootstrap-blue)
 ![Domain](https://img.shields.io/badge/Domain-Mechanical_Engineering_%7C_Business_Strategy-orange)
+<div/>
 
----
+## Overview  
+This repository contains an interactive version of a feasibility study originally completed as part of GEME 201 (Introduction to Small Business Management and Accounting) at the Botswana International University of Science and Technology (BIUST).
 
-## 📖 Executive Summary
-This project is a digital transformation of a comprehensive feasibility study conducted for **DFM Precision Engineering**, a proposed localized manufacturing hub in Gaborone, Botswana.
+The interactive article transforms the formal report into a modern, accessible presentation. It demonstrates skills in technical communication, engineering understanding, financial modelling, and digital presentation.
 
-The study addresses the critical challenge of **supply chain fragility** in Botswana's mining, energy, and water sectors. currently, reliance on imported spares causes significant downtime for entities like the **Water Utilities Corporation (WUC)** and **Botswana Power Corporation (BPC)**. This project proposes a local CNC machining and reverse engineering solution to mitigate these risks.
+## About the Study  
+The feasibility report examines the viability of establishing **DFM Precision Engineering (DFMPE)**, a company focused on:
 
-## 📊 Key Features of this Report
-Unlike static PDF reports, this interactive web version features:
-* **Dynamic Financial Visualizations:** Interactive Bar and Line charts visualizing Revenue vs. Expenses and ROI growth over a 5-year period.
-* **Data-Driven Market Analysis:** Integration of import data from *Statistics Botswana (June 2025)* to validate market size.
-* **Business Logic:** A complete breakdown of Net Present Value (NPV) calculations and startup capital requirements.
+- CNC machining  
+- Additive manufacturing (3D printing)  
+- Reverse engineering  
+- PCB printing and electronics prototyping  
 
-## 🛠 Engineering & Business Logic
-This project demonstrates the intersection of mechanical engineering and business strategy:
-* [cite_start]**Problem Identification:** Diagnosed failure points in the North South Carrier (NSC) pipeline and power generation systems due to lack of spare parts[cite: 20, 23].
-* [cite_start]**Technical Solution:** Proposed a facility for high-precision CNC milling, industrial 3D printing, and PCB fabrication[cite: 14].
-* [cite_start]**Financial Modeling:** Calculated a 5-year trajectory moving from a **-69.8% ROI** in Year 1 to **+98.0% ROI** in Year 5[cite: 129].
+The study highlights the potential for DFMPE to strengthen Botswana’s industrial resilience, reduce reliance on imported components, and contribute to Vision 2036 goals through innovation-led growth.
 
-## 💻 Technical Stack
-* **Frontend:** HTML5, CSS3 (Bootstrap 5 for responsive design).
-* **Data Visualization:** Chart.js (Rendering financial datasets dynamically).
-* **Hosting:** GitHub Pages.
+## Features of the Interactive Article  
+- Clean, mobile-friendly design  
+- Section-by-section navigation  
+- Enhanced visuals and improved readability  
+- Embedded financial tables and simplified charts  
+- Clear explanations of business metrics such as ROI and NPV  
+- Integrated context about Botswana’s industrial and economic environment  
 
-## 🚀 How to Run Locally
-If you want to view the code or modify the data on your own machine:
+## Contents  
+The interactive article covers the following sections from the original feasibility study:
 
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/yourusername/dfm-study.git](https://github.com/yourusername/dfm-study.git)
-    cd dfm-study
-    ```
+- Introduction  
+- Challenges facing Botswana’s industrial sectors  
+- Strategic benefits of localized precision engineering  
+- Market research (primary and secondary data)  
+- Funding sources, interest rates, and startup costs  
+- Asset valuation  
+- Revenue projections  
+- Net Profit, ROI, and NPV financial analysis  
+- Discussion and conclusion  
 
-2.  **Open index.html**
-    Simply open the `index.html` file in any web browser (Firefox, Chrome).
-    ```bash
-    firefox index.html
-    ```
+The original PDF report is included in the repository for reference.
 
-## 📈 Project Data Snapshot
-* [cite_start]**Initial Capital Required:** P730,000 (Sourced via CEDA, ABSA, and Personal Equity) [cite: 83-86].
-* [cite_start]**Target Market:** Machinery & Electrical Equipment Imports (~P12.77 Billion/year)[cite: 75].
-* [cite_start]**Projected NPV:** -P1,365,173 (at 10% discount rate), typical for capital-intensive manufacturing startups[cite: 141, 144].
+## Skills Demonstrated  
+- Financial modelling (ROI, NPV, expense analysis)  
+- Market analysis using national statistics  
+- Understanding of CNC and additive manufacturing processes  
+- Technical writing and structured presentation  
+- Interactive article development (HTML/CSS/JS or Markdown-based)  
+- Git and GitHub project organization  
 
-TODO 
-## 👤 Author
-**Oarabile Koore** *BEng Mechanical & Energy Engineering Student | BIUST* * [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-* [GitHub Profile](https://github.com/yourusername)
+## Repository Structure  
+```
 
-*This project was developed to demonstrate the feasibility of import substitution in Botswana's engineering sector.*
+/
+├── interactive-article/    # Interactive article source files
+├── report/                 # Original feasibility study PDF
+└── README.md               # Project documentation
+
+```
+
+## Viewing the Article  
+You can view the interactive article by opening the main HTML/Markdown file or accessing the deployed version (if hosted).
+
+## Purpose of the Project  
+This repository serves as a portfolio piece, showcasing engineering knowledge, financial reasoning, and digital communication skills relevant to future employment opportunities or academic work.
+
+## License  
+This project is available under the MIT License.
