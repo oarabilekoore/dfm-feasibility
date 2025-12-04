@@ -69,4 +69,4 @@ You can view the interactive article by opening the main HTML/Markdown file or a
 This repository serves as a portfolio piece, showcasing engineering knowledge, financial reasoning, and digital communication skills relevant to future employment opportunities or academic work.
 
 ## License  
-This project is available under the MIT License.
+This project is available under the CC BY 4.0 Creative Commons License.
