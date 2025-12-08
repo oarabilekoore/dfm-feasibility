@@ -15,11 +15,15 @@ export function NavigationBar() {
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            <NavLink to="/original-report">Download Report</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <a className="text-sm font-medium transition-colors hover:text-primary cursor-pointer">
-              Adjust Viewing Settings
-            </a>
+            <NavLink to="../assets/GEME 201 ASSIGNMENT FEASIBILITY REPORT.pdf">
+              Download Report
+            </NavLink>
+
+            <RouterNavLink to="/metrics-game">
+              <span className="text-sm font-medium transition-colors hover:text-primary cursor-pointer">
+                Adjust The Metrics - Can you make DFMPE profitable?
+              </span>
+            </RouterNavLink>
 
             <div className="ml-4 border-l border-border pl-6">
               <ThemeToggle />

@@ -25,10 +25,11 @@ export function TableOfContents({ contents, activeId }: TOCData) {
     const isActive = activeId === id;
     return `
       block py-1 px-4 text-sm transition-colors duration-200 cursor-pointer
-      hover:text-primary dark:hover:text-primary-foreground
-      ${isActive
-        ? "text-foreground font-semibold border-l-2 border-primary-foreground dark:border-primary"
-        : "text-muted-foreground font-medium border-l-2 border-transparent"
+      hover:text-primary dark:hover:text-primary
+      ${
+        isActive
+          ? "text-foreground font-semibold border-l-2 border-primary-foreground dark:border-primary"
+          : "text-muted-foreground font-medium border-l-2 border-transparent"
       }
     `;
   };
@@ -46,9 +47,10 @@ export function TableOfContents({ contents, activeId }: TOCData) {
         <div
           className={`
             py-1 px-4 text-sm font-bold transition-colors duration-200
-            ${activeId && tocdata.some((l) => l.id === activeId)
-              ? "text-foreground"
-              : "text-muted-foreground"
+            ${
+              activeId && tocdata.some((l) => l.id === activeId)
+                ? "text-foreground"
+                : "text-muted-foreground"
             }
           `}
         >

@@ -29,7 +29,7 @@ export function ThemeToggle() {
       onClick={() => setIsDark(!isDark)}
       className="rounded-lg p-2 text-sm font-medium text-muted-foreground hover:bg-accent hover:text-accent-foreground transition-colors"
     >
-      {isDark ? "🌙 Dark Mode" : "☀️ Light Mode"}
+      {isDark ? "☀️ Light Mode" : "🌙 Dark Mode"}
     </button>
   );
 }
