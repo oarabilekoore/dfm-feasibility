@@ -1,7 +1,7 @@
 # DFM Precision Engineering – Interactive Feasibility Study  
 An interactive article based on a feasibility study evaluating the establishment of a local precision engineering company in Botswana.
 
-**Live Interactive Report:** [View the Web Report Here](https://yourusername.github.io/dfm-study)  
+**Live Interactive Report:** [View the Web Report Here](https://oarabilekoore.github.io/dfm-feasibility)  
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Domain](https://img.shields.io/badge/Domain-Mechanical_Engineering_%7C_Business_Strategy-orange)
@@ -56,7 +56,7 @@ The original PDF report is included in the repository for reference.
 ```
 
 /
-├── interactive-article/    # Interactive article source files
+├── interactive-report/    # Interactive article source files
 ├── report/                 # Original feasibility study PDF
 └── README.md               # Project documentation
 
