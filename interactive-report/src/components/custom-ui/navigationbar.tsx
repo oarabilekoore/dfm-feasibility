@@ -16,7 +16,7 @@ export function NavigationBar() {
           <div className="hidden md:flex items-center gap-8">
             {/* UPDATED LINK SECTION */}
             <a
-              href="/GEME_201_Report.pdf"
+              href="dfm-feasibility/GEME_201_Report.pdf"
               download="GEME_201_Report.pdf"
               target="_blank"
               rel="noopener noreferrer"

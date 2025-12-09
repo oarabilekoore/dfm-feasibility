@@ -6,6 +6,7 @@ import mdx from "@mdx-js/rollup";
 
 export default defineConfig({
   plugins: [{ enforce: "pre", ...mdx() }, react(), tailwindcss()],
+  base: "/dfm-feasibility/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
