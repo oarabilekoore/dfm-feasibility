@@ -1,4 +1,3 @@
-import { Link, NavLink as RouterNavLink } from "react-router-dom";
 import { ThemeToggle } from "./themetoggle";
 
 export function NavigationBar() {
@@ -7,23 +6,24 @@ export function NavigationBar() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="shrink-0 cursor-pointer">
-            <Link to="/" className="flex items-center gap-2 no-underline">
+            <span className="flex items-center gap-2 no-underline">
               <span className="text-2xl font-bold text-primary science-gothic-l300">
                 Oarabile Koore
               </span>
-            </Link>
+            </span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
-            <NavLink to="../assets/GEME 201 ASSIGNMENT FEASIBILITY REPORT.pdf">
-              Download Report
-            </NavLink>
-
-            <RouterNavLink to="/metrics-game">
-              <span className="text-sm font-medium transition-colors hover:text-primary cursor-pointer">
-                Adjust The Metrics - Can you make DFMPE profitable?
-              </span>
-            </RouterNavLink>
+            {/* UPDATED LINK SECTION */}
+            <a
+              href="/GEME_201_Report.pdf"
+              download="GEME_201_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium transition-colors hover:text-primary cursor-pointer"
+            >
+              Download Original Report
+            </a>
 
             <div className="ml-4 border-l border-border pl-6">
               <ThemeToggle />
@@ -32,21 +32,5 @@ export function NavigationBar() {
         </div>
       </div>
     </nav>
-  );
-}
-
-// Helper component for active states
-function NavLink({ to, children }: { to: string; children: React.ReactNode }) {
-  return (
-    <RouterNavLink
-      to={to}
-      className={({ isActive }) =>
-        `text-sm font-medium transition-colors hover:text-primary ${
-          isActive ? "text-primary font-bold" : "text-muted-foreground"
-        }`
-      }
-    >
-      {children}
-    </RouterNavLink>
   );
 }

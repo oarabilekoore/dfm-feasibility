@@ -6,6 +6,7 @@ import PCBHoverCard from "./hover-cards/pcb.tsx";
 import BIHHoverCard from "./hover-cards/bih.tsx";
 import IMTSReportHoverCard from "./hover-cards/imts.tsx";
 import CEDAHoverCard from "./hover-cards/ceda.tsx";
+import ImportSubstitutionHoverCard from "./hover-cards/importsub.tsx";
 
 import MathDisplay from "./math-text.tsx";
 
@@ -17,6 +18,11 @@ import {
     NetProfitChart,
     NPVChart,
 } from "./charts.tsx";
+
+import {
+    FixedAssetsTable,
+    MonthlyExpensesTable
+} from "./tables.tsx";
 
 <section id="introduction">
  # BUSINESS OVERVIEW
@@ -53,7 +59,7 @@ DFMPE will be in Gaborone – this makes recycling achievable which supports sus
 <section id="economic-contribution">
  # DFMPE’s contribution towards Botswana's current economic situation
 
- Providing a faster and local alternative to airfreighting replacements from overseas, often resulting in weeks or months of waiting. DFM provides local, rapid turnaround for repairs and replacements and helps support Botswana’s import substitution policy which in turn helps The Bank of Botswana to retain capital by stabilizing the pula by using majority of the currency on essential imports.
+ Providing a faster and local alternative to airfreighting replacements from overseas, often resulting in weeks or months of waiting. DFM provides local, rapid turnaround for repairs and replacements and helps support <ImportSubstitutionHoverCard/> which in turn helps The Bank of Botswana to retain capital by stabilizing the pula by using majority of the currency on essential imports.
 
 DFMPE will also provide direct and indirect employment opportunities for Botswana’s citizens.
 </section>
@@ -113,11 +119,11 @@ In total I need P 730 000 capital.
 
 ## FIXED ASSETS COSTS
 
-<FixedAssetsChart />
+<FixedAssetsTable />
 
 ## MONTHLY EXPENSES
 
-<MonthlyExpensesChart />
+<MonthlyExpensesTable />
 
 Annual Expenses = P 1 258 440<br/>
 Monthly Working Capital = P 104 870<br/>

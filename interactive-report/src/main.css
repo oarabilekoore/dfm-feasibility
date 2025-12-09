@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap");
 @import "tailwindcss";
-@tailwind base
+@taikwind @layer base
 @custom-variant dark (&:is(.dark *));
 
 .science-gothic-l300 {
@@ -35,11 +35,12 @@
 }
 
 @layer base {
-    /* Set background color for the entire browser viewport */
+    html {
+        background-color: var(--background);
+    }
+
     body {
-        @apply bg-white dark:bg-black; /* Adjust colors to match your light/dark theme */
-        /* Optional: Ensure the body always takes up the full viewport height */
-        @apply min-h-screen;
+        background-color: var(--background);
     }
 }
 

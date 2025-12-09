@@ -1,6 +1,6 @@
 import BaseHoverCard from "../hover-card";
 
-export function ImportSubstitutionHoverCard() {
+export default function ImportSubstitutionHoverCard() {
   return (
     <BaseHoverCard
       triggerText="Botswana’s import substitution policy"
